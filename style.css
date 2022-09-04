@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+*{
+font-family: 'Playfair Display', serif;
+font-size: 1rem;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.navbar-brand{
+font-family: 'Playfair Display', serif;
+}
+header{  
+margin: 0;
+padding: 0;
+background: url("backgroundImg.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+width: 100vw;
+height: 100vh;
+}
+#navbar{
+  width: 100%;
+  z-index: 2;
+}
+.card-img-top{
+  width: 75px;
+  height: 75px;
+}
+
+.previous{
+  width: auto !important;
+  height: auto !important;
+}
+.col{
+  width: 200px;
+  margin: 15px;
+  padding:15px;
+}
+.input:focus{
+  outline: none!important;
+}
+#aboutMySelf{
+  width: 100%;
+  height: 100%;
+}
+
+.devName{
+  font-size: 1.5rem;
+}
+
+#row{
+  display: flex;
+  width: 100vw!important;
+  justify-content: center;
+  background-color: green;
+}
+#name:focus{
+  outline: none;
+}
+.footer{
+  width: 100vw;
+  background:black;
+}
+.nav-item:hover{
+  border-bottom: 2px solid #fff;
+}
+.contact-me{
+ width: 100vw;
+}
+#invalid{
+  display: none;
+  width: 100%;
+  padding: 10px;
+}
